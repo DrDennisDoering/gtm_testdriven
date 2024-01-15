@@ -1,0 +1,69 @@
+{
+	"id": "99c21716-83b3-ee11-8925-0022489e23d1",
+	"createdAt": "2024-01-15T08:50:09.786Z",
+	"createdBy": "dennis.doering@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DrDennisDoering/gtm_testdriven.git"
+	},
+	"name": "ddo_testdriven",
+	"description": null,
+	"ver": "24.1.15.90",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "a28ded97-7bb3-ee11-8925-0022489e23d1",
+			"application": "ddo_testdriven",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "99C21716-83B3-EE11-8925-0022489E23D1"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "532b81e1-7eb3-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "ddo_testdriven"
+		}
+	],
+	"category": [
+		{
+			"id": "bf5cfd92-82b3-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "ddo_testdriven"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "e984f0de-82b3-ee11-8925-0022489e23d1",
+			"name": "ddo_testdriven",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

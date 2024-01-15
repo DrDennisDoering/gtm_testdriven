@@ -1,0 +1,187 @@
+{
+	"id": "a28ded97-7bb3-ee11-8925-0022489e23d1",
+	"createdAt": "2024-01-15T07:58:47.853Z",
+	"createdBy": "dennis.doering@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "6d3711ad-6104-4235-c6ae-bbb30712f160",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "d97d4687-71a6-4f23-b7db-9f7d522f4fee",
+					"fieldName": "Page",
+					"fieldParent": "6d3711ad-6104-4235-c6ae-bbb30712f160",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Input and Button",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "ab64f230-d46d-4c00-ccad-43037459ef6d",
+							"fieldName": "VBox",
+							"fieldParent": "d97d4687-71a6-4f23-b7db-9f7d522f4fee",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "sapUiMediumMargin",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "e3765364-355a-43a7-ae73-8ef80ca8e8b5",
+									"fieldName": "inputField",
+									"fieldParent": "ab64f230-d46d-4c00-ccad-43037459ef6d",
+									"fieldType": "sap.m.Input",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Enter text",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "a21c37d3-aedd-42f1-9b39-5f8d13ba897b",
+									"fieldName": "submitButton",
+									"fieldParent": "ab64f230-d46d-4c00-ccad-43037459ef6d",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Submit",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "outputText.setText(inputField.getValue());",
+											"script": "outputText.setText(inputField.getValue());",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "dfe9f38a-d929-4da5-f9de-f9ffdf631e09",
+									"fieldName": "outputText",
+									"fieldParent": "ab64f230-d46d-4c00-ccad-43037459ef6d",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "18fd0b97-3a68-46c3-9d03-d1dac686d1ed",
+					"fieldName": "onInit",
+					"fieldParent": 99999,
+					"fieldType": "neptune.event.oninit",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.1.15.954",
+	"application": "ddo_testdriven",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "99c21716-83b3-ee11-8925-0022489e23d1"
+}

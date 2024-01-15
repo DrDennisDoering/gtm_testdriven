@@ -1,0 +1,2 @@
+outputText.setText("");
+inputField.setValue("");
